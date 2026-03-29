@@ -1,0 +1,112 @@
+/* Umumiy sozlamalar */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #73c67395;
+  color: #333;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+/* Sarlavha qismi */
+header {
+  position: sticky;
+  top: 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #0f8200a8;
+  backdrop-filter: blur(10px);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Asosiy qism */
+main {
+  padding: 20px;
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.info-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Kartalar uchun Flexbox dizayni */
+.tips-container {
+  display: flex;
+  /* Elementlarni yonma-yon qilish uchun */
+  flex-wrap: wrap;
+  /* Ekran kichraysa pastga tushishi uchun */
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-left: 5px solid #4CAF50;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  transition: transform 0.3s;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.card:hover {
+  transform: translateY(-10px);
+  /* Sichqoncha ustiga kelganda biroz ko'tariladi */
+}
+
+.card h3 {
+  color: #2d5a27;
+}
+
+/* Pastki qism */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  margin-top: 50px;
+}
+.list {
+  display: inline-block;
+  width: 294px;
+  height: 354px;
+  background-color: white;
+  border-radius: 30px;
+  margin: 30px;
+  padding: 10px;
+  list-style-type: none;
+
+}
+
+.list-card {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 100px;
+}
+.q {
+  width: 870;
+  height: 44;
+  color: white;
+  margin-top: 20px;
+  padding-left: 100px;
+}
+.text {
+  font-size: 20px;
+}

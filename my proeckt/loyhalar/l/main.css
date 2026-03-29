@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #dddddd;
+
+
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.fa-youtube {
+  font-size: 80px;
+  margin-bottom: 15px;
+}
+
+.container-flex {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: 30%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  transition: all 1s ease;
+  margin: 0 auto;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+  animation: rotate-shadow-2 2s linear infinite;
+}
+.card:hover{
+  transform: scale(1.1);
+}
+
+.card i {
+  font-size: 80px;
+  margin-bottom: 15px;
+}
+
+.html-card:hover {
+  color: orange;
+  background-color: rgb(205, 231, 255);
+}
+
+.css-card:hover {
+  color: purple;
+  background-color: rgb(205, 231, 255);
+}
+
+.instagram-card:hover {
+  color: rgb(251, 114, 137);
+  background-color: rgb(205, 231, 255);
+}
+
+.github-card:hover {
+  background-color: rgb(205, 231, 255);
+}
+
+.apple-card:hover {
+  background-color: rgb(205, 231, 255);
+}
+
+.appstore-card:hover {
+  color: rgb(0, 183, 255);
+  background-color: rgb(205, 231, 255);
+}
+
+.figma-card:hover {
+  color: rgb(200, 0, 196);
+  background-color: rgb(205, 231, 255);
+}
+
+.face-card:hover {
+  color: yellow;
+  background-color: rgb(205, 231, 255);
+}
+
+.whatsapp-card:hover {
+  color: rgb(0, 255, 47);
+  background-color: rgb(205, 231, 255);
+}
+.tugma{
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(238, 247, 255);
+  cursor: pointer;
+}
+a {
+  justify-content: S;
+}
+@keyframes rotate-shadow-2 {
+  0% {
+    box-shadow: 10px 0px 20px -5px rgb(103, 103, 103), -10px 0px 20px -5px rgba(255, 255, 255, 0.2);
+  }
+
+  25% {
+    box-shadow: 0px 10px 20px -5px rgb(177, 177, 177), 0px -10px 20px -5px rgba(255, 255, 255, 0.2);
+  }
+
+  50% {
+    box-shadow: -10px 0px 20px -5px rgb(255, 255, 255), 10px 0px 20px -5px rgba(255, 255, 255, 0.2);
+  }
+
+  75% {
+    box-shadow: 0px -10px 20px -5px rgb(177, 177, 177), 0px 10px 20px -5px rgba(255, 255, 255, 0.2);
+  }
+
+  100% {
+    box-shadow: 10px 0px 20px -5px rgb(103, 103, 103), -10px 0px 20px -5px rgba(255, 255, 255, 0.2);
+  }
+}

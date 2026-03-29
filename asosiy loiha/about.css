@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.me-container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* About Hero */
+.me-about-hero {
+    height: 400px;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
+                url('./photos/about/unsplash_okVXy9tG3KY\ \(2\).png') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.me-hero-title {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.me-breadcrumb a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.me-breadcrumb .active {
+    opacity: 0.7;
+}
+
+/* Info Cards */
+.me-info-cards {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.me-flex-row {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.me-info-card {
+    flex: 1;
+    min-width: 280px;
+    padding: 20px;
+}
+
+.me-info-icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.me-info-card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.me-info-card p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Founder Section */
+.me-founder-section {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.me-founder-flex {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.me-founder-image {
+    flex: 1;
+    min-width: 300px;
+}
+
+.me-founder-image img {
+    width: 100%;
+    border-radius: 20px 20px 150px 20px; /* Rasm qirralari o'xshatildi */
+    object-fit: cover;
+}
+
+.me-founder-content {
+    flex: 1;
+    min-width: 300px;
+}
+
+.me-quote-icon {
+    font-size: 60px;
+    color: #000;
+    font-family: serif;
+    margin-bottom: -20px;
+}
+
+.me-quote-text {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.me-founder-info h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.me-founder-info span {
+    color: #888;
+    font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .me-founder-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+}

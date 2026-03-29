@@ -1,0 +1,515 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: #f3f3f3;
+    margin: 0;
+}
+
+.container {
+    width: 1340px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    position: fixed;
+    background: #ffffff9d;
+    backdrop-filter: blur(10px);
+    width: 100%;
+}
+
+
+
+.hero {
+    height: 100vh;
+    background-color: #002244;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px 100px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.hero-content {
+    margin-top: 100px;
+    max-width: 500px;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    background: white;
+    padding: 15px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    color: black;
+}
+
+.btn-explore {
+    background: black;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.destinations {
+    padding: 80px 100px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.card {
+    width: 30%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.img-style {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    background-color: #eee;
+    display: block;
+    animation: katarish 3s ease infinite;
+}
+
+.why-us {
+    padding: 80px 100px;
+    background-color: #4FB3B3;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.feature-box {
+    background: white;
+    color: black;
+    padding: 30px;
+    border-radius: 15px;
+    width: 250px;
+    text-align: left;
+}
+
+.partners {
+    padding: 60px 100px;
+    text-align: center;
+}
+
+.partner-logos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #888;
+}
+
+.me-features-section {
+    background-image: linear-gadient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./photos/unsplash_okVXy9tG3KY.png');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    background-color: #dddddd;
+}
+
+.me-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.me-main-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.me-subtitle {
+    font-size: 16px;
+    margin-bottom: 50px;
+    opacity: 0.9;
+}
+
+.me-cards-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.me-card {
+    background-color: white;
+    color: #333;
+    padding: 40px 30px;
+    border-radius: 12px;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transform: translateY(50%);
+    transition: transform 0.3s ease;
+}
+
+.me-card:hover {
+    transform: translateY(30%);
+}
+
+.me-icon-box {
+    background-color: #f8f9fa;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.me-icon-box img {
+    width: 40px;
+}
+
+.me-card-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.me-card-text {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.me-learn-more {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.me-learn-more:hover {
+    text-decoration: underline;
+}
+
+.me-partners-section {
+    margin-top: 100px;
+    padding: 60px 20px;
+    background-color: #dddddd;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.me-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.me-partners-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.me-partners-subtitle {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+
+.me-partners-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.me-logo-item img {
+    max-width: 140px;
+    height: auto;
+    filter: grayscale(0%);
+    transition: transform 0.3s ease;
+    display: block;
+    animation: katarish 3s ease infinite;
+}
+
+.me-logo-item img:hover {
+    transform: scale(1.1);
+}
+
+.me-testimonial-section {
+    padding: 80px 20px;
+    background-color: #dddddd;
+    font-family: sans-serif;
+}
+
+.me-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.me-testimonial-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 50px;
+}
+
+.me-top-label {
+    color: #888;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.me-section-title {
+    font-size: 32px;
+    margin: 10px 0;
+    color: #000;
+}
+
+.me-section-desc {
+    color: #666;
+    font-size: 14px;
+}
+
+.me-nav-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.me-testimonial-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.me-t-card {
+    flex: 1;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border: 1px solid #f9f9f9;
+    transition: transform .3s ease;
+}
+.me-t-card:hover{
+    transform: translateY(-10px);
+}
+
+.me-user-img {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 15px;
+}
+
+.me-user-img img {
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.me-user-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.me-user-job {
+    color: #999;
+    font-size: 13px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.me-stars {
+    color: #FFB800;
+    margin-bottom: 15px;
+}
+
+.me-user-feedback {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.6;
+}
+
+.me-subscribe-section {
+    background-image: url('./photos/unsplash_TejFa7VW5e4.png');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+}
+
+.me-sub-title {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.me-sub-text {
+    font-size: 14px;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+.me-sub-form {
+    display: flex;
+    margin: 0 auto;
+    background: white;
+    padding: 5px;
+    width: 30%;
+    justify-content: space-between;
+    border-radius: 50px;
+}
+
+.me-sub-input {
+    border: none;
+    padding: 15px 25px;
+    border-radius: 50px;
+}
+
+.me-sub-btn {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.me-footer {
+    padding: 60px 20px 20px;
+    background-color: #fff;
+    font-family: sans-serif;
+}
+
+.me-footer-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.me-footer-brand {
+    flex: 1.5;
+    min-width: 250px;
+}
+
+.me-footer-col {
+    flex: 1;
+    min-width: 180px;
+}
+
+.me-footer-logo {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.me-brand-desc {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.me-col-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.me-footer-list {
+    list-style: none;
+    padding: 0;
+}
+
+.me-footer-list li {
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #666;
+}
+
+.me-footer-list a {
+    text-decoration: none;
+    color: #666;
+}
+
+.me-social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.me-social-icons a {
+    width: 30px;
+    height: 30px;
+    background: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #333;
+    text-decoration: none;
+}
+
+.me-copyright {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+@keyframes katarish {
+    0% {
+        transform: scale(1) rotate(3deg);
+    }
+    50% {
+        transform: scale(1.1) rotate(-3deg);
+    }
+    100% {
+        transform: scale(1) rotate(3deg);
+    }
+}
