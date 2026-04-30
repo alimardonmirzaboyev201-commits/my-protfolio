@@ -379,11 +379,6 @@ nav a.active {
   opacity: 0.9;
 }
 
-.copyright {
-  font-size: 16px !important;
-  opacity: 1 !important;
-}
-
 .footer-links {
   flex: 1;
   min-width: 150px;
@@ -427,12 +422,4 @@ nav a.active {
   background-image: radial-gradient(white 20%, transparent 20%);
   background-size: 20px 20px;
   opacity: 0.2;
-}
-.header {
-  backdrop-filter: blur(10px);
-  position: sticky;
-  top: 0;
-  background: #ffffff3a;
-  z-index: 1000;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }

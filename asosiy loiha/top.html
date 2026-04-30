@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Maʼlumotnoma</title>
+    <link rel="stylesheet" type="text/css" href="Css2.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Registration Form</h1>
+        <form action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="on">
+            <label>
+                First name 
+                <input type="text" name="firstname" required placeholder="ismingizni kiriting">
+            </label>
+            <br>
+            <label>
+                Last name 
+                <input type="text" name="lastname" required placeholder="familiyangizni kiriting">
+            </label>
+            <br>
+            <label>
+                Nick name 
+                <input type="text" name="nickname" required placeholder="taxallusingizni kiriting">
+            </label>
+            <br>
+            <label>
+                E-mail 
+                <input type="email" name="email" required placeholder="pochta manzilingizni kiriting">
+            </label>
+            <br>
+            <label>
+                Password
+                <input type="password" name="password" required placeholder="yangi parol kiriting">
+            </label>
+            <br>
+            <label>
+                Date of birth
+                <input type="date" name="birthdate" required>
+            </label>
+            <br>
+            <p>Gender</p>
+            <label>
+                <input type="radio" name="gender" value="male" required> Male
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female"> Female
+            </label>
+            <br>
+            <label>
+                Mobile
+                <input type="tel" name="mobile" placeholder="+998901234567" pattern="\+\d{9,15}">
+            </label>
+            <br>
+            <label>
+                Address
+                <textarea name="address" rows="4" cols="30" placeholder="Manzilingizni kiriting"></textarea>
+            </label>
+            <hr>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>

@@ -8,8 +8,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  color: #e0e0e0;
-  background: radial-gradient(circle at top right, #0a0a0a 0%, #1a0a2e 50%, #0d0221 100%);
+  color: #404040;
+  background: radial-gradient(circle at top right, #c3c3c3 0%, #cecece 50%, #868686 100%);
   background-attachment: fixed;
   height: 100vh;
 }
@@ -22,7 +22,7 @@ ol {
 }
 
 a {
-  color: #fff;
+  color: #404040;
   text-decoration-line: none;
 }
 
@@ -40,7 +40,7 @@ a {
 
 .nav_a {
   cursor: pointer;
-  color: rgb(255, 255, 255);
+  color: rgb(64, 64, 64);
   font-weight: bold;
   transition: 0.5s;
 }
@@ -48,17 +48,14 @@ a {
 
 
 .nav_a:hover {
-  color: #00ff88;
+  color: #131313;
   transform: scale(1.1);
-}
-.nav_active:hover {
-  transform: rotate(90deg);
 }
 
 .logo {
   cursor: pointer;
   font-size: 25px;
-  color: #00ff88;
+  color: #131313;
   font-weight: 600;
 
 }
@@ -87,13 +84,13 @@ a {
   margin-top: 240px;
   margin-right: 100px;
   border-radius: 50%;
-  background: rgb(15, 8, 52);
+  background: rgb(170, 170, 170);
   min-width: 350px;
   height: 350px;
   transform: translateX(-385px);
   animation: rotate-shadow 4s linear infinite;
   z-index: 100;
-  border: 2px solid #00ff88;
+  border: 2px solid #ffffff;
 }
 
 .header {
@@ -102,14 +99,14 @@ a {
   top: 5px;
   z-index: 1000;
   backdrop-filter: blur(10px);
-  background: rgba(0, 255, 136, 0.05);
+  background: rgba(169, 169, 169, 0.05);
   border-radius: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 40px;
   margin: 20px auto;
-  border: 2px solid #00ff88;
+  border: 2px solid #ffffff;
   animation: rotate-shadow 4s linear infinite;
 }
 
@@ -121,12 +118,12 @@ a {
 .text_malumot {
   transform: translate(-400px);
   min-width: 900px;
-  background: rgba(0, 255, 136, 0.03);
+  background: rgba(186, 186, 186, 0.202);
   backdrop-filter: blur(10px);
   border-radius: 50px;
   align-items: center;
   padding: 15px 40px;
-  border: 2px solid #00ff88;
+  border: 2px solid #ffffff;
   margin-top: 80px;
   margin-bottom: 100px;
   animation: rotate-shadow-2 4s linear infinite;
@@ -139,36 +136,36 @@ a {
 }
 
 h1 {
-  color: #00ff88;
+  color: #494949;
   font-weight: bold;
 }
 
 .Malumot {
-  color: #a0a0a0;
+  color: #5b5b5b;
 
 }
 
 .tugma {
-  background-color: #0d0221;
+  background-color: #c8c8c8;
   border-radius: 50px;
-  box-shadow: inset 4px 4px 10px #1a0a2e, inset -4px -4px 10px #00ff88;
-  color: #00ff88;
+  box-shadow: inset 4px 4px 10px #717171, inset -4px -4px 10px #b6b6b6;
+  color: #616161;
   cursor: pointer;
   font-size: 18px;
   padding: 15px 40px;
   transition: all 0.2s ease-in-out;
-  border: 2px solid #00ff88;
+  border: 2px solid #ffffff;
 }
 
 .tugma:hover {
-  box-shadow: inset 2px 2px 5px #1a0a2e, inset -2px -2px 5px #00ff88, 2px 2px 5px #00ff88, -2px -2px 5px #00ff88;
-  background-color: #00ff88;
+  box-shadow: inset 2px 2px 5px #1a0a2e, inset -2px -2px 5px #ffffff, 2px 2px 5px #ffffff, -2px -2px 5px #ffffff;
+  background-color: #ffffff;
   color: #0d0221;
 }
 
 .tugma:focus {
   outline: none;
-  box-shadow: inset 2px 2px 5px #1a0a2e, inset -2px -2px 5px #00ff88, 2px 2px 5px #00ff88, -2px -2px 5px #00ff88;
+  box-shadow: inset 2px 2px 5px #1a0a2e, inset -2px -2px 5px #ffffff, 2px 2px 5px #ffffff, -2px -2px 5px #ffffff;
 }
 
 .loyha-rasmi {
@@ -186,26 +183,26 @@ h1 {
 }
 
 .loyha-kartochka {
-  background: rgba(0, 255, 136, 0.05);
+  background: rgba(0, 0, 0, 0.05);
   backdrop-filter: blur(10px);
   width: 350px;
-  box-shadow: 0 10px 30px rgba(0, 255, 136, 0.3);
+  box-shadow: 0 10px 30px rgba(95, 95, 95, 0.3);
   border-radius: 20px;
   padding: 20px 20px;
   transition: 0.3s;
   animation: rotate-shadow 4s linear infinite;
-  border: 2px solid #00ff88;
+  border: 2px solid #ffffff;
 }
 
 .loyha-kartochka:hover {
   transform: scale(1.03);
-  box-shadow: 0 10px 30px rgba(0, 255, 136, 0.5);
+  box-shadow: 0 10px 30px rgba(95, 95, 95, 0.5);
 }
 
 .card-list-asosiy-loiha {
   margin: 50px;
   animation: rotate-shadow 4s linear infinite;
-  background: rgba(0, 255, 136, 0.03);
+  background: rgba(150, 150, 150, 0.367);
   backdrop-filter: blur(10px);
   border-radius: 50px;
   padding: 30px;
@@ -213,7 +210,7 @@ h1 {
   width: 80%;
   height: auto;
   border-radius: 10px;
-  border: 2px solid #00ff88;
+  border: 2px solid #ffffff;
 }
 
 .card-list-asosiy-loiha img {
@@ -223,16 +220,16 @@ h1 {
 }
 
 .text_malumot-2 {
-  background: rgba(0, 255, 136, 0.03);
+  background: rgba(144, 144, 144, 0.164);
   backdrop-filter: blur(10px);
   border-radius: 50px;
   align-items: center;
   padding: 15px 40px;
-  border: 2px solid #00ff88;
+  border: 2px solid #ffffff;
   margin-top: 180px;
   margin-bottom: 100px;
   animation: rotate-shadow-2 4s linear infinite;
-  color: #cccccc;
+  color: #666666;
   width: 400px;
   padding: 40px;
   margin-left: 100px;
@@ -241,16 +238,16 @@ h1 {
 
 
 .text_malumot- {
-  background: rgba(0, 255, 136, 0.03);
+  background: rgba(0, 0, 0, 0.226);
   backdrop-filter: blur(10px);
   border-radius: 50px;
   align-items: center;
   padding: 15px 40px;
-  border: 2px solid #00ff88;
+  border: 2px solid #ffffff;
   margin-top: 180px;
   margin-bottom: 100px;
   animation: rotate-shadow-2 4s linear infinite;
-  color: #cccccc;
+  color: #666666;
   width: 70%;
   padding: 40px;
   margin-left: 100px;
@@ -258,7 +255,7 @@ h1 {
 }
 
 .ul-maspan {
-  color: #00ff88;
+  color: #666666;
   font-weight: bold;
 }
 
@@ -274,11 +271,11 @@ h1 {
 }
 
 .digit {
-  color: #00ff88;
+  color: #616161;
   font-family: monospace;
   font-size: 18px;
   text-align: center;
-  text-shadow: 0 0 5px #00ff88;
+  text-shadow: 0 0 5px #616161, 0 0 10px #616161, 0 0 20px #616161;
   animation:
     matrix-fall 2s infinite,
     matrix-flicker 0.5s infinite;
@@ -324,7 +321,7 @@ h1 {
   right: 0;
   bottom: 0;
   background: radial-gradient(circle,
-      rgba(0, 255, 136, 0.1) 0%,
+      rgba(97, 97, 97, 0.1) 0%,
       transparent 70%);
   animation: matrix-pulse 2s infinite;
 }
@@ -376,48 +373,47 @@ h1 {
 
 @keyframes rotate-shadow {
   0% {
-    box-shadow: 10px 0px 20px -5px #00ff88, -10px 0px 20px -5px rgba(0, 255, 136, 0.2);
+    box-shadow: 10px 0px 20px -5px #3e3e3e, -10px 0px 20px -5px rgba(255, 255, 255, 0.2);
   }
 
   25% {
-    box-shadow: 0px 10px 20px -5px #00ff88, 0px -10px 20px -5px rgba(0, 255, 136, 0.2);
+    box-shadow: 0px 10px 20px -5px #3e3e3e, 0px -10px 20px -5px rgba(255, 255, 255, 0.2);
   }
 
   50% {
-    box-shadow: -10px 0px 20px -5px #00ff88, 10px 0px 20px -5px rgba(0, 255, 136, 0.2);
+    box-shadow: -10px 0px 20px -5px #3e3e3e, 10px 0px 20px -5px rgba(255, 255, 255, 0.2);
   }
 
   75% {
-    box-shadow: 0px -10px 20px -5px #00ff88, 0px 10px 20px -5px rgba(0, 255, 136, 0.2);
+    box-shadow: 0px -10px 20px -5px #3e3e3e, 0px 10px 20px -5px rgba(255, 255, 255, 0.2);
   }
 
   100% {
-    box-shadow: 10px 0px 20px -5px #00ff88, -10px 0px 20px -5px rgba(0, 255, 136, 0.2);
+    box-shadow: 10px 0px 20px -5px #3e3e3e, -10px 0px 20px -5px rgba(255, 255, 255  , 0.2);
   }
 }
 
 @keyframes rotate-shadow-2 {
   0% {
-    box-shadow: 10px 0px 20px -5px #00ff88, -10px 0px 20px -5px rgba(0, 255, 136, 0.2);
+    box-shadow: 10px 0px 20px -5px #3e3e3e, -10px 0px 20px -5px rgba(255, 255, 255, 0.2);
   }
 
   25% {
-    box-shadow: 0px 10px 20px -5px #00ff88, 0px -10px 20px -5px rgba(0, 255, 136, 0.2);
+    box-shadow: 0px 10px 20px -5px #3e3e3e, 0px -10px 20px -5px rgba(255, 255, 255, 0.2);
   }
 
   50% {
-    box-shadow: -10px 0px 20px -5px #00ff88, 10px 0px 20px -5px rgba(0, 255, 136, 0.2);
+    box-shadow: -10px 0px 20px -5px #3e3e3e, 10px 0px 20px -5px rgba(255, 255, 255, 0.2);
   }
 
   75% {
-    box-shadow: 0px -10px 20px -5px #00ff88, 0px 10px 20px -5px rgba(0, 255, 136, 0.2);
+    box-shadow: 0px -10px 20px -5px #3e3e3e, 0px 10px 20px -5px rgba(255, 255, 255, 0.2);
   }
 
   100% {
-    box-shadow: 10px 0px 20px -5px #00ff88, -10px 0px 20px -5px rgba(0, 255, 136, 0.2);
+    box-shadow: 10px 0px 20px -5px #3e3e3e, -10px 0px 20px -5px rgba(255, 255, 255, 0.2);
   }
 }
-
 
 
 .loader-wrapper {
@@ -426,13 +422,12 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #1a1a1a; 
+  background: #bababa; 
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 9999;
-
-  animation: fadeOut 2s forwards 2s;
+  animation: fadeOut 1.5s forwards 1.5s;
 }
 
 .matrix-loader span {
@@ -440,7 +435,7 @@ h1 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 2.5rem;
   font-weight: bold;
-  color: #00ff41; 
+  color: #434343; 
   opacity: 0;
   transform: translateY(10px);
   animation: letterFade 1.2s infinite alternate;
@@ -449,7 +444,7 @@ h1 {
 
 .loading-text {
   margin-top: 20px;
-  color: #00ff41;
+  color: #ffffff;
   text-align: center;
   font-family: sans-serif;
   letter-spacing: 2px;
@@ -460,7 +455,7 @@ h1 {
   to {
     opacity: 1;
     transform: translateY(0);
-    text-shadow: 0 0 10px #00ff41;
+    text-shadow: 0 0 10px #000000;
   }
 }
 
@@ -475,14 +470,14 @@ footer {
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  background: linear-gradient(135deg, #000000 0%, #300d58 50%, #10002c 100%);
+  background: linear-gradient(135deg, #757575 0%, #7b7b7b 50%, #cacacb 100%);
   backdrop-filter: blur(10px);
   padding: 15px 40px;
-  border: 2px solid #00ff88;
+  border: 2px solid #616161;
   margin-top: 100px;
 }
 .contacs a {
-  color: #00ff88;
+  color: #616161;
   font-weight: bold;
   transition: 0.5s;
   display: block;
@@ -498,13 +493,12 @@ footer {
 }
 .yutuqlarim {
   width: 50%;
-  margin: 50px;
-  background: rgba(186, 186, 186, 0);
+  background: rgba(186, 186, 186, 0.202);
   backdrop-filter: blur(10px);
   border-radius: 50px;
   align-items: center;
   padding: 15px 40px;
-  border: 2px solid #00ff88;
+  border: 2px solid #ffffff;
   margin-top: 80px;
   margin-bottom: 100px;
   animation: rotate-shadow-2 4s linear infinite;
