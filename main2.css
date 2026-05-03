@@ -415,6 +415,43 @@ h1 {
   }
 }
 
+.card_list {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.fa-html5 {
+  color: #dedede;
+  font-size: 74px;
+  transition: 0.3s;
+}
+.fa-css3-alt {
+  color: #dedede;
+  font-size: 74px;
+  transition: 0.3s;
+}
+.fa-figma {
+  color: #dedede;
+  font-size: 74px;
+  transition: 0.3s;
+}
+.fa-github {
+  color: #dedede;
+  font-size: 74px;
+  transition: 0.3s;
+}
+.card {
+  background: rgba(134, 134, 134, 0.05);
+  backdrop-filter: blur(10px);
+  width: 120px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  padding: 20px 20px;
+  transition: 0.3s;
+}
+
 
 .loader-wrapper {
   position: fixed;
